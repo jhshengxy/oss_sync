@@ -4,6 +4,10 @@
 
 # 参数说明
 ```
-FILE_PATH 监控的目录
-Prefix  修饰目录
+FILE_PATH             :监控的目录
+Prefix                :迁移到oss的路径为destBucket/destPrefix + relativePath
+OSS_ACCESS_KEY_ID     :access key
+OSS_ACCESS_KEY_SECRET :secret key
+OSS_BUCKET_NAME       :bucket 名称
+OSS_ENDPOINT          :bucket 对应的endpoint
 ```
